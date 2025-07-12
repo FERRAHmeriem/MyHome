@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api':{
-        target:'http://localhost:3000',
+        target:'https://myhome-backend-anuw.onrender.com',
         secure: false,
       },
     },
